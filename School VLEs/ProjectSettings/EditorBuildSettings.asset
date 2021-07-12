@@ -4,5 +4,32 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/ShelterAboveGroundAvatar.unity
+    guid: 7d5870cbeb2d7834a966cdde92b84782
+  - enabled: 1
+    path: Assets/Scenes/ShelterAboveGround.unity
+    guid: 3ea98ab1d8ece004c8f25d0b11070877
+  - enabled: 1
+    path: Assets/Scenes/Shelter2SetText.unity
+    guid: a9a82aaf731313c4b934931694d549cd
+  - enabled: 1
+    path: Assets/Scenes/Shelter2SetAvatar.unity
+    guid: a2bee0504c43c044ba610d54d86171f2
+  - enabled: 1
+    path: Assets/Scenes/Shelter1SetTextAndArrows 1.unity
+    guid: 019f6d42cc6f3bd428db1897bfaf0f9b
+  - enabled: 1
+    path: Assets/Scenes/Shelter1SetAvatar.unity
+    guid: bb6b9fc4f7e51dc48bd4af051cd1dbae
+  - enabled: 1
+    path: Assets/Scenes/CtShelter2.unity
+    guid: 5fafd493404c0f8459051ad577eff206
+  - enabled: 1
+    path: Assets/Scenes/ChallengeShelter2.unity
+    guid: 9c993d6694521ae46a7eec986b62ccb4
+  - enabled: 1
+    path: Assets/Scenes/ExitScene.unity
+    guid: a1d47e82ca714124987d778fe370df1e
   m_configObjects: {}
