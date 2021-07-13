@@ -7905,6 +7905,22 @@ PrefabInstance:
       propertyPath: m_text
       value: Find and click the Storm Shelter sign.
       objectReference: {fileID: 0}
+    - target: {fileID: 7999080664769163313, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 62.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 7999080664769163313, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
+        type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee,
+        type: 2}
+    - target: {fileID: 7999080664769163313, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 62.39
+      objectReference: {fileID: 0}
     - target: {fileID: 7999080665015038339, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
         type: 3}
       propertyPath: m_Name
@@ -24489,7 +24505,7 @@ PrefabInstance:
     - target: {fileID: 892852079015426388, guid: 8000307e336fd3543aa61b3fea1989d1,
         type: 3}
       propertyPath: pressedEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: ShelterAboveGroundAvatar
+      value: ExitScene
       objectReference: {fileID: 0}
     - target: {fileID: 892852079015426388, guid: 8000307e336fd3543aa61b3fea1989d1,
         type: 3}
@@ -25283,6 +25299,22 @@ PrefabInstance:
         type: 3}
       propertyPath: m_text
       value: Find the Storm Shelter.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7999080664769163313, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 57.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7999080664769163313, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
+        type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee,
+        type: 2}
+    - target: {fileID: 7999080664769163313, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 57.2
       objectReference: {fileID: 0}
     - target: {fileID: 7999080665015038339, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
         type: 3}
@@ -46339,6 +46371,46 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8000307e336fd3543aa61b3fea1989d1, type: 3}
+--- !u!1 &1990220155 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5965082173859092134, guid: 8000307e336fd3543aa61b3fea1989d1,
+    type: 3}
+  m_PrefabInstance: {fileID: 1990220154}
+  m_PrefabAsset: {fileID: 0}
+--- !u!328 &1990220156
+VideoPlayer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1990220155}
+  m_Enabled: 1
+  m_VideoClip: {fileID: 0}
+  m_TargetCameraAlpha: 1
+  m_TargetCamera3DLayout: 0
+  m_TargetCamera: {fileID: 0}
+  m_TargetTexture: {fileID: 0}
+  m_TimeReference: 0
+  m_TargetMaterialRenderer: {fileID: 0}
+  m_TargetMaterialProperty: _MainTex
+  m_RenderMode: 3
+  m_AspectRatio: 2
+  m_DataSource: 0
+  m_PlaybackSpeed: 1
+  m_AudioOutputMode: 2
+  m_TargetAudioSources:
+  - {fileID: 0}
+  m_DirectAudioVolumes:
+  - 1
+  m_Url: 
+  m_EnabledAudioTracks: 01
+  m_DirectAudioMutes: 00
+  m_ControlledAudioTrackCount: 1
+  m_PlayOnAwake: 1
+  m_SkipOnDrop: 1
+  m_Looping: 0
+  m_WaitForFirstFrame: 1
+  m_FrameReadyEventEnabled: 0
 --- !u!1001 &1997426379
 PrefabInstance:
   m_ObjectHideFlags: 0
