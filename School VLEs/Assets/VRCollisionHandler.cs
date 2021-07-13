@@ -5,7 +5,7 @@ using UnityEngine;
 public class VRCollisionHandler : MonoBehaviour
 {
     public GameObject camRig;
-    public float speed = 300;
+    public float speed = 11;
 
     void OnCollisionEnter(Collision collision) 
     {
