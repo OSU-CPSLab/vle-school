@@ -48,12 +48,14 @@ public class ButtonInteractable : MonoBehaviour
 
     private IEnumerator activateButton() {
 
-        buttonAnim.SetBool("buttonPressed", true);
+        if(buttonAnim != null)
+        {
+            buttonAnim.SetBool("buttonPressed", true);
 
-        yield return new WaitForSeconds(0.01f);
+            yield return new WaitForSeconds(0.01f);
 
-        buttonAnim.SetBool("buttonPressed", false);
-
+            buttonAnim.SetBool("buttonPressed", false);
+        }
     }
 
 }
