@@ -81,8 +81,8 @@ public class PathMover : MonoBehaviour
         isMoving = true;
     }
 
-    private void OnDrawGizmos()
+    public void NextInstruction()
     {
-        Gizmos.DrawLine(transform.position, transform.position + hips.forward);
+        GetComponent<Animator>().SetBool("CanMove", true);
     }
 }
