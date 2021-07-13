@@ -18360,19 +18360,23 @@ PrefabInstance:
     - target: {fileID: 7999080664769163313, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
         type: 3}
       propertyPath: m_text
-      value: 'Turn left and continue down the stairs to the shelter.
-
-'
+      value: You are doing great keeping reading the signs
       objectReference: {fileID: 0}
     - target: {fileID: 7999080664769163313, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
         type: 3}
       propertyPath: m_fontSize
-      value: 100
+      value: 106.29
       objectReference: {fileID: 0}
     - target: {fileID: 7999080664769163313, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
         type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee,
+        type: 2}
+    - target: {fileID: 7999080664769163313, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
+        type: 3}
       propertyPath: m_fontSizeBase
-      value: 100
+      value: 106.29
       objectReference: {fileID: 0}
     - target: {fileID: 7999080665015038339, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
         type: 3}
@@ -19538,19 +19542,26 @@ PrefabInstance:
     - target: {fileID: 7999080664769163313, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
         type: 3}
       propertyPath: m_text
-      value: 'Continue down the stairs to the shelter.
+      value: 'Look for signs like this one! Follow the arrows on the sign to find
+        the storm shelter.
 
 '
       objectReference: {fileID: 0}
     - target: {fileID: 7999080664769163313, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
         type: 3}
       propertyPath: m_fontSize
-      value: 100
+      value: 70.1
       objectReference: {fileID: 0}
     - target: {fileID: 7999080664769163313, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
         type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee,
+        type: 2}
+    - target: {fileID: 7999080664769163313, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
+        type: 3}
       propertyPath: m_fontSizeBase
-      value: 100
+      value: 70.1
       objectReference: {fileID: 0}
     - target: {fileID: 7999080665015038339, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
         type: 3}
@@ -26785,19 +26796,23 @@ PrefabInstance:
     - target: {fileID: 7999080664769163313, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
         type: 3}
       propertyPath: m_text
-      value: 'Turn left and continue down the stairs to the shelter.
-
-'
+      value: You are almost there!
       objectReference: {fileID: 0}
     - target: {fileID: 7999080664769163313, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
         type: 3}
       propertyPath: m_fontSize
-      value: 100
+      value: 99.9
       objectReference: {fileID: 0}
     - target: {fileID: 7999080664769163313, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
         type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee,
+        type: 2}
+    - target: {fileID: 7999080664769163313, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
+        type: 3}
       propertyPath: m_fontSizeBase
-      value: 100
+      value: 99.9
       objectReference: {fileID: 0}
     - target: {fileID: 7999080665015038339, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
         type: 3}
@@ -39669,172 +39684,6 @@ Transform:
   m_Father: {fileID: 995471361}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1561052850
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 7999080664769163312, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1555
-      objectReference: {fileID: 0}
-    - target: {fileID: 7999080664769163312, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -1899
-      objectReference: {fileID: 0}
-    - target: {fileID: 7999080664769163312, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -655
-      objectReference: {fileID: 0}
-    - target: {fileID: 7999080664769163313, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
-        type: 3}
-      propertyPath: m_text
-      value: 'Enter the Storm Shelter.
-
-'
-      objectReference: {fileID: 0}
-    - target: {fileID: 7999080664769163313, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
-        type: 3}
-      propertyPath: m_fontSize
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 7999080664769163313, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
-        type: 3}
-      propertyPath: m_fontSizeBase
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 7999080665015038339, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
-        type: 3}
-      propertyPath: m_Name
-      value: Second Text on Stairs (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7999080665015038343, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
-        type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7999080665015038343, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
-        type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7999080665015038343, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 43
-      objectReference: {fileID: 0}
-    - target: {fileID: 7999080665015038343, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
-        type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7999080665015038343, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7999080665015038343, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
-        type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7999080665015038343, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7999080665015038343, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 1150
-      objectReference: {fileID: 0}
-    - target: {fileID: 7999080665015038343, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 558
-      objectReference: {fileID: 0}
-    - target: {fileID: 7999080665015038343, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.0015938338
-      objectReference: {fileID: 0}
-    - target: {fileID: 7999080665015038343, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.0015938338
-      objectReference: {fileID: 0}
-    - target: {fileID: 7999080665015038343, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.0015938338
-      objectReference: {fileID: 0}
-    - target: {fileID: 7999080665015038343, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7999080665015038343, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7999080665015038343, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -8.536
-      objectReference: {fileID: 0}
-    - target: {fileID: 7999080665015038343, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 7999080665015038343, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7999080665015038343, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 7999080665015038343, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7999080665015038343, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -7.23
-      objectReference: {fileID: 0}
-    - target: {fileID: 7999080665015038343, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -2.808
-      objectReference: {fileID: 0}
-    - target: {fileID: 7999080665015038343, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7999080665015038343, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 7999080665015038343, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 5f4ebf1bba1fb094ca1cbdc3d79fcc7a, type: 3}
 --- !u!1001 &1566952516
 PrefabInstance:
   m_ObjectHideFlags: 0
