@@ -43,7 +43,10 @@ public class ButtonInteractable : MonoBehaviour
 
     public void ButtonPressed(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource) {
         StartCoroutine(activateButton());
+        buttonPress.RemoveAllListeners(interHand.handType);
+        interHand = null;
         pressedEvent.Invoke();
+
     }
 
     private IEnumerator activateButton() {
