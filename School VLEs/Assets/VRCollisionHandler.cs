@@ -9,6 +9,7 @@ public class VRCollisionHandler : MonoBehaviour
 
     void OnCollisionEnter(Collision collision) 
     {
+        Debug.Log(collision.gameObject.name);
         Vector3 movement = transform.forward * -speed * Time.deltaTime;
         movement.y = 0;
         camRig.transform.Translate(movement);
