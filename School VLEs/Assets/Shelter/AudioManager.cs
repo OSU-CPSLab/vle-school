@@ -9,8 +9,11 @@ public class AudioManager : MonoBehaviour
 	private int currentClip = 0;
     private AudioSource source;
 
+	private Animator animator;
+
 	private void Start()
 	{
+		animator = GetComponent<Animator>();
 		source = GetComponent<AudioSource>();
 	}
 
@@ -20,6 +23,10 @@ public class AudioManager : MonoBehaviour
 		source.Play();
 
 		currentClip++;
+    }
+
+    private void Update() {
+		animator.SetBool("IsAudioPlaying", source.isPlaying);
     }
 
 }

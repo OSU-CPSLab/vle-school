@@ -44,6 +44,7 @@ public class PathMover : MonoBehaviour
 
         if (Vector3.Distance(transform.position, path.movmentPoints[moveIndex].transform.position + Vector3.up * distFromGround) < 0.1f)
         {
+            
             isMoving = false;
             moveIndex++;
 
@@ -79,6 +80,7 @@ public class PathMover : MonoBehaviour
     public void BeginMovement()
     {
         isMoving = true;
+        GetComponent<Animator>().SetBool("CanMove", false);
     }
 
     public void NextInstruction()
