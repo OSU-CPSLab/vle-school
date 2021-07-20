@@ -21,7 +21,7 @@ public class DoorController : MonoBehaviour
         if(dist <= num) 
         {
             JointMotor jm = hinge.motor;
-            jm.targetVelocity = 50;
+            jm.targetVelocity = 100;
             hinge.motor = jm;
         }
     }
