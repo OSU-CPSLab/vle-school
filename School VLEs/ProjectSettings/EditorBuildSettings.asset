@@ -27,8 +27,8 @@ EditorBuildSettings:
     path: Assets/Scenes/CtShelter2.unity
     guid: 5fafd493404c0f8459051ad577eff206
   - enabled: 1
-    path: Assets/Scenes/ChallengeShelter2.unity
-    guid: 9c993d6694521ae46a7eec986b62ccb4
+    path: Assets/Scenes/AssessmentShelter.unity
+    guid: ca2b68db6b7e79546b5002f104836441
   - enabled: 1
     path: Assets/Scenes/ExitScene.unity
     guid: a1d47e82ca714124987d778fe370df1e
