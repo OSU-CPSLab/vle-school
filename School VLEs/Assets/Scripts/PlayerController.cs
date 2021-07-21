@@ -46,9 +46,9 @@ public class PlayerController : MonoBehaviour {
 
     private void Update()
     {
-        doorHandle.SetActive(false);
-        triggerActivator.SetActive(false);
-        topTouchPadHasBeenPressed.SetActive(false);
+        //doorHandle.SetActive(false);
+        //triggerActivator.SetActive(false);
+        //topTouchPadHasBeenPressed.SetActive(false);
         if (moveAction.GetState(m_Pose.inputSource))
         {
             //Vector3 targetFloor = new Vector3(target.position.x, 0, target.position.z);

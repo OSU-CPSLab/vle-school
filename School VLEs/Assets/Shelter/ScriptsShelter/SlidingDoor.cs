@@ -27,7 +27,6 @@ public class SlidingDoor : MonoBehaviour
     {
         while (Vector3.Distance(transform.position, movementLocation) > 0.01f)
         {
-            print("Ok!");
             yield return new WaitForEndOfFrame();
 
             transform.position =
